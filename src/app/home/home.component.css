@@ -1,0 +1,11 @@
+.success{
+    color: blue;
+} 
+.height24{
+    height: 100px;
+    background: gray;
+    text-align: center;
+}
+.fontSize{
+    font-size: 80px;
+}

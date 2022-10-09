@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  myClass={'success':true, 'height24':false,'fontSize':this.increeseFont()};
+
   name:string ='Sandeep Kumar';
 
   employees=['Jack','John','Rock'];
@@ -14,6 +16,9 @@ export class HomeComponent {
     name:'Sandeep',
     age:25, 
     salary:25000
+  }
+  increeseFont():boolean{
+    return true;
   }
 
   clickSave(){

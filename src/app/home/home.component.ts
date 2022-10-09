@@ -16,6 +16,21 @@ export class HomeComponent {
     salary:25000
   }
 
+  clickSave(){
+    alert("This is click event!");
+  }
+  mouseOver(){
+    this.name='Sandeep Kumar update';
+  }
+  changeEvent(){
+    this.name='change event!';
+  }
+  keyDownEvent(){
+    this.name='Key Down Event!';
+  }
+  focusEvent(){
+    this.name='Focus Event!';
+  }
   getName(data:number):string{
     if (data===1) {
       return 'Hello from data 1';

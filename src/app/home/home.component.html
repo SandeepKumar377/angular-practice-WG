@@ -1,14 +1,13 @@
 <p>This is home works!</p>
 
-<p>
-        {{name}}
-</p>
-<p>
-    {{employees[1]}}
-</p>
-<p>
-    {{getName(2)}}
-</p>
+<h1> {{name}}</h1>
+<button (click)="clickSave()" (mouseover)="mouseOver()">Button</button>
+<p>Change Event<input type="text" (change)="changeEvent()"></p>
+<p>Key Down event<input type="text" (keydown)="keyDownEvent()"></p>
+<p>focusEvent event<input type="text" (focus)="focusEvent()"></p>
+<p> {{employees[1]}}</p>
+<p> {{employees[2]}}</p>
+<p> {{getName(2)}}</p>
 <ul>
    <li>
      <strong> Name:</strong>  {{employee.name}}

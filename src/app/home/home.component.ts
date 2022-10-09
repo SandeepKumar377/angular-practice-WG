@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class HomeComponent {
 
   myClass={'success':true, 'height24':false,'fontSize':this.increeseFont()};
-
+  src='https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80';
+  width=200;
   name:string ='Sandeep Kumar';
 
   employees=['Jack','John','Rock'];

@@ -1,5 +1,6 @@
 <p [style]="styleBind">This is home works!</p>
-
+<input type="text" value="22" #myText>
+{{myText.value}}
 <h1 [class]="myClass"> {{name}}</h1>
 <button (click)="clickSave()" (mouseover)="mouseOver()">Button</button>
 <p>Change Event<input type="text" (change)="changeEvent()"></p>

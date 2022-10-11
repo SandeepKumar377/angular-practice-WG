@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+
+
   switchTest:number=3;
 
   myClass={'success':true, 'height24':false,'fontSize':this.increeseFont()};
@@ -21,6 +23,48 @@ export class HomeComponent {
     age:25, 
     salary:25000
   }
+  employeesList=[{
+    name:'Sandeep',
+    age:25, 
+    salary:25000
+  },
+  {
+    name:'Sandy',
+    age:24, 
+    salary:22000
+  },
+  {
+    name:'San',
+    age:23, 
+    salary:32000
+  }
+]
+refresh():void{
+  this.employeesList=[{
+    name:'Sandeep',
+    age:25, 
+    salary:25000
+  },
+  {
+    name:'Sandy',
+    age:24, 
+    salary:22000
+  },
+  {
+    name:'San',
+    age:23, 
+    salary:32000
+  },
+  {
+    name:'Sanjay',
+    age:21, 
+    salary:39000
+  }
+]
+}
+refreshEmloyees(index:number, employee:any):string{
+return employee.name;
+}
   increeseFont():boolean{
     return true;
   }

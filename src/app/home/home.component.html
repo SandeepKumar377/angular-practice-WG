@@ -1,4 +1,10 @@
 <p [style]="styleBind">This is home works!</p>
+<div [ngSwitch]="switchTest">
+  <div *ngSwitchCase="1">I am first</div>
+  <div *ngSwitchCase="2">I am Second</div>
+  <div *ngSwitchCase="3">I am Third</div>
+  <div *ngSwitchCase="4">I am Fourth</div>
+</div>
 <input type="text" value="22" #myText>
 {{myText.value}}
 <h1 [class]="myClass"> {{name}}</h1>
